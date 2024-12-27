@@ -1,0 +1,13 @@
+{
+    "name": "juana/appointment-system",
+    "description": "composer require phpmailer/phpmailer",
+    "type": "composer-plugin",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juana\\AppointmentSystem\\": "src/"
+        }
+    }
+}
